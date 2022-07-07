@@ -15,7 +15,7 @@ function listCountries() {
         <img src="${data[i].flags.png}" />
           <div class="content">
             <span>${data[i].name.common}</span>
-            <span>Lang: ${data[i].languages[0]}</span>
+            <span>Continent: ${data[i].continents}</span>
             <span>Capital: ${data[i].capital}</span>
           </div>
       </div>
